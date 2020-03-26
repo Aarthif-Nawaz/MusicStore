@@ -1,0 +1,14 @@
+#pane1,#pane2,#pane3,#pane4,#pane5,#pane6{
+     -fx-background-image : url("background.jpg") no-repeat;
+     -fx-background-size : cover;
+     -fx-opacity : 1.0;
+}
+
+#login, #Search, #AddItem, #DeleteItem, #Print, #Sort, #Buy, #Generate, #Request, #Back, #refresh, #AddMusic, #Back1, #DeleteMusic, #Back2, #Back3, #BuyMusic, #Back5{
+    -fx-background-color : #20B2AA;
+    -fx-color : white;
+    -fx-cursor : pointer;
+    -fx-color : white;
+    -fx-border-width : 2px;
+    -fx-border-radius : 50px;
+}

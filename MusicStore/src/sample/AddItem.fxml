@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="pane3" prefHeight="746.0" prefWidth="787.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.AddItem">
+   <children>
+      <Label layoutX="290.0" layoutY="60.0" prefHeight="50.0" prefWidth="233.0" text="       Add Item" textAlignment="CENTER">
+         <font>
+            <Font size="29.0" />
+         </font>
+      </Label>
+      <Label layoutX="86.0" layoutY="138.0" prefHeight="44.0" prefWidth="189.0" text="Item Type">
+         <font>
+            <Font name="System Bold Italic" size="21.0" />
+         </font>
+      </Label>
+      <ComboBox fx:id="ItemType" layoutX="367.0" layoutY="145.0" prefHeight="31.0" prefWidth="200.0" promptText="Choose Item Type" />
+      <Label layoutX="86.0" layoutY="189.0" prefHeight="44.0" prefWidth="189.0" text="Item ID">
+         <font>
+            <Font name="System Bold Italic" size="21.0" />
+         </font>
+      </Label>
+      <Label layoutX="86.0" layoutY="233.0" prefHeight="44.0" prefWidth="189.0" text="Title">
+         <font>
+            <Font name="System Bold Italic" size="21.0" />
+         </font>
+      </Label>
+      <Label layoutX="86.0" layoutY="288.0" prefHeight="44.0" prefWidth="189.0" text="Genre">
+         <font>
+            <Font name="System Bold Italic" size="21.0" />
+         </font>
+      </Label>
+      <Label fx:id="dur" layoutX="86.0" layoutY="332.0" prefHeight="44.0" prefWidth="189.0" text="Duration">
+         <font>
+            <Font name="System Bold Italic" size="21.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblSpeed" layoutX="86.0" layoutY="386.0" prefHeight="44.0" prefWidth="189.0" text="Speed">
+         <font>
+            <Font name="System Bold Italic" size="21.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblDiam" layoutX="86.0" layoutY="442.0" prefHeight="44.0" prefWidth="189.0" text="Diametre">
+         <font>
+            <Font name="System Bold Italic" size="21.0" />
+         </font>
+      </Label>
+      <Label layoutX="86.0" layoutY="486.0" prefHeight="44.0" prefWidth="189.0" text="Release Date">
+         <font>
+            <Font name="System Bold Italic" size="21.0" />
+         </font>
+      </Label>
+      <Label layoutX="86.0" layoutY="530.0" prefHeight="44.0" prefWidth="189.0" text="Artist">
+         <font>
+            <Font name="System Bold Italic" size="21.0" />
+         </font>
+      </Label>
+      <Label layoutX="86.0" layoutY="582.0" prefHeight="44.0" prefWidth="189.0" text="Price">
+         <font>
+            <Font name="System Bold Italic" size="21.0" />
+         </font>
+      </Label>
+      <TextField fx:id="space" editable="false" layoutX="577.0" layoutY="21.0" promptText="Space Left" />
+      <Label layoutX="379.0" layoutY="15.0" prefHeight="44.0" prefWidth="189.0" text="Space Left">
+         <font>
+            <Font name="System Bold Italic" size="21.0" />
+         </font>
+      </Label>
+      <TextField fx:id="itemID" editable="false" layoutX="367.0" layoutY="189.0" promptText="Enter Item ID" />
+      <TextField fx:id="Title" layoutX="367.0" layoutY="240.0" promptText="Enter Title" />
+      <TextField fx:id="Genre" layoutX="367.0" layoutY="295.0" promptText="Enter Genre" />
+      <TextField fx:id="duration" layoutX="367.0" layoutY="339.0" promptText="Enter Duration" />
+      <TextField fx:id="speed" layoutX="367.0" layoutY="393.0" promptText="Enter Speed" />
+      <TextField fx:id="Diam" layoutX="367.0" layoutY="442.0" promptText="Enter Diametre" />
+      <TextField fx:id="Artist" layoutX="367.0" layoutY="543.0" promptText="Enter Artist Name" />
+      <TextField fx:id="Price" layoutX="367.0" layoutY="589.0" promptText="Enter Price" />
+      <Button fx:id="AddMusic" layoutX="64.0" layoutY="656.0" mnemonicParsing="false" onAction="#AddMusics" prefHeight="44.0" prefWidth="170.0" text="Add Item" />
+      <Button fx:id="Back1" layoutX="577.0" layoutY="656.0" mnemonicParsing="false" onAction="#BackTo1" prefHeight="44.0" prefWidth="170.0" text="Back" />
+      <DatePicker fx:id="ReleaseDate" layoutX="365.0" layoutY="493.0" promptText="Enter Release Date" />
+   </children>
+</AnchorPane>

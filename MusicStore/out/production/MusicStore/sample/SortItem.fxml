@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="pane5" prefHeight="839.0" prefWidth="1674.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.SortItem">
+   <children>
+      <TableView fx:id="table" layoutX="23.0" layoutY="120.0" prefHeight="617.0" prefWidth="1601.0">
+         <columns>
+            <TableColumn fx:id="ItemType" prefWidth="104.0" text="Item Type" />
+            <TableColumn fx:id="ItemID" prefWidth="118.0" text="Item ID" />
+            <TableColumn fx:id="Title" prefWidth="118.0" text="Title" />
+            <TableColumn fx:id="Genre" prefWidth="126.0" text="Genre" />
+            <TableColumn fx:id="SongDuration" prefWidth="133.0" text="Song Duration" />
+            <TableColumn fx:id="Speed" prefWidth="127.0" text="Speed" />
+            <TableColumn fx:id="Diametre" prefWidth="113.0" text="Diametre" />
+            <TableColumn fx:id="ReleaseDate" prefWidth="139.0" text="Release Date" />
+            <TableColumn fx:id="Artist" prefWidth="117.0" text="Artist" />
+            <TableColumn fx:id="Price" prefWidth="117.0" text="Price" />
+            <TableColumn fx:id="Space" prefWidth="117.0" text="Space Left" />
+            <TableColumn fx:id="SellDate" prefWidth="130.0" text="Selling Date" />
+            <TableColumn fx:id="SellTime" prefWidth="141.0" text="Selling Time" />
+         </columns>
+      </TableView>
+      <Label layoutX="605.0" layoutY="43.0" prefHeight="50.0" prefWidth="379.0" text="   Sort Item (Ascending - Title)" textAlignment="CENTER">
+         <font>
+            <Font name="Baskerville Old Face" size="29.0" />
+         </font>
+      </Label>
+      <Button fx:id="Back3" layoutX="1448.0" layoutY="758.0" mnemonicParsing="false" onAction="#MainPage" prefHeight="58.0" prefWidth="177.0" text="Back" />
+   </children>
+</AnchorPane>

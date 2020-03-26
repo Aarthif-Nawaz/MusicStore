@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="pane2" prefHeight="903.0" prefWidth="1801.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.MainView">
+   <children>
+      <TextField fx:id="searchBar" layoutX="44.0" layoutY="40.0" prefHeight="43.0" prefWidth="284.0" promptText="Search MusicItem By Title" />
+      <Button fx:id="Search" layoutX="344.0" layoutY="40.0" mnemonicParsing="false" onAction="#SearchTitle" prefHeight="43.0" prefWidth="134.0" text="Search">
+         <font>
+            <Font name="System Bold Italic" size="18.0" />
+         </font></Button>
+      <TableView fx:id="table" layoutX="44.0" layoutY="114.0" prefHeight="617.0" prefWidth="1601.0">
+        <columns>
+          <TableColumn fx:id="ItemType" prefWidth="104.0" text="Item Type" />
+          <TableColumn fx:id="ItemID" prefWidth="118.0" text="Item ID" />
+            <TableColumn fx:id="Title" prefWidth="118.0" text="Title" />
+            <TableColumn fx:id="Genre" prefWidth="126.0" text="Genre" />
+            <TableColumn fx:id="SongDuration" prefWidth="133.0" text="Song Duration" />
+            <TableColumn fx:id="Speed" prefWidth="127.0" text="Speed" />
+            <TableColumn fx:id="Diametre" prefWidth="113.0" text="Diametre" />
+            <TableColumn fx:id="ReleaseDate" prefWidth="139.0" text="Release Date" />
+            <TableColumn fx:id="Artist" prefWidth="117.0" text="Artist" />
+            <TableColumn fx:id="Price" prefWidth="117.0" text="Price" />
+            <TableColumn fx:id="Space" prefWidth="117.0" text="Space Left" />
+            <TableColumn fx:id="SellDate" prefWidth="130.0" text="Selling Date" />
+            <TableColumn fx:id="SellTime" prefWidth="141.0" text="Selling Time" />
+        </columns>
+      </TableView>
+      <Button fx:id="AddItem" layoutX="88.0" layoutY="757.0" mnemonicParsing="false" onAction="#Add" prefHeight="51.0" prefWidth="197.0" text="Add Item">
+         <font>
+            <Font name="System Bold Italic" size="18.0" />
+         </font></Button>
+      <Button fx:id="DeleteItem" layoutX="322.0" layoutY="757.0" mnemonicParsing="false" onAction="#Delete" prefHeight="51.0" prefWidth="197.0" text="Delete Item">
+         <font>
+            <Font name="System Bold Italic" size="20.0" />
+         </font></Button>
+      <Button fx:id="Print" layoutX="553.0" layoutY="757.0" mnemonicParsing="false" onAction="#PrintMusic" prefHeight="51.0" prefWidth="197.0" text="Print List Of Items">
+         <font>
+            <Font name="System Bold Italic" size="17.0" />
+         </font></Button>
+      <Button fx:id="Sort" layoutX="787.0" layoutY="757.0" mnemonicParsing="false" onAction="#SortMusic" prefHeight="51.0" prefWidth="197.0" text="Sort Items">
+         <font>
+            <Font name="System Bold Italic" size="18.0" />
+         </font></Button>
+      <Button fx:id="Buy" layoutX="1014.0" layoutY="757.0" mnemonicParsing="false" onAction="#BuyMusic" prefHeight="51.0" prefWidth="197.0" text="Buy Items">
+         <font>
+            <Font name="System Bold Italic" size="17.0" />
+         </font></Button>
+      <Button fx:id="Generate" layoutX="236.0" layoutY="832.0" mnemonicParsing="false" onAction="#GenerateReport" prefHeight="51.0" prefWidth="224.0" text="Generate Report">
+         <font>
+            <Font name="System Bold Italic" size="18.0" />
+         </font></Button>
+      <Button fx:id="Back" layoutX="916.0" layoutY="832.0" mnemonicParsing="false" onAction="#MainPage" prefHeight="51.0" prefWidth="197.0" text="Back">
+         <font>
+            <Font name="System Bold Italic" size="19.0" />
+         </font></Button>
+      <Button fx:id="Request" layoutX="478.0" layoutY="832.0" mnemonicParsing="false" onAction="#RequestCopies" prefHeight="51.0" prefWidth="197.0" text="Request For Copies">
+         <font>
+            <Font name="System Bold Italic" size="17.0" />
+         </font></Button>
+      <Button fx:id="refresh" layoutX="695.0" layoutY="832.0" mnemonicParsing="false" onAction="#Refresh" prefHeight="51.0" prefWidth="197.0" text="Refresh">
+         <font>
+            <Font name="System Bold Italic" size="19.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

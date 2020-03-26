@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="pane4" prefHeight="502.0" prefWidth="733.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.DeleteItem">
+   <children>
+      <Button fx:id="Back2" layoutX="389.0" layoutY="435.0" mnemonicParsing="false" onAction="#MainPage" prefHeight="44.0" prefWidth="170.0" text="Back" />
+      <Button fx:id="DeleteMusic" layoutX="49.0" layoutY="435.0" mnemonicParsing="false" onAction="#DeleteMusics" prefHeight="44.0" prefWidth="170.0" text="Delete Item" />
+      <Label layoutX="389.0" layoutY="25.0" prefHeight="44.0" prefWidth="189.0" text="Space Left">
+         <font>
+            <Font name="System Bold Italic" size="21.0" />
+         </font>
+      </Label>
+      <TextField fx:id="space" editable="false" layoutX="505.0" layoutY="32.0" prefHeight="31.0" prefWidth="201.0" promptText="Space Left" />
+      <Label layoutX="116.0" layoutY="193.0" prefHeight="44.0" prefWidth="189.0" text="Item ID">
+         <font>
+            <Font name="System Bold Italic" size="21.0" />
+         </font>
+      </Label>
+      <Label layoutX="230.0" layoutY="93.0" prefHeight="50.0" prefWidth="273.0" text="      Delete Item" textAlignment="CENTER">
+         <font>
+            <Font name="System Bold Italic" size="30.0" />
+         </font>
+      </Label>
+      <ComboBox fx:id="itemID" layoutX="293.0" layoutY="200.0" prefHeight="31.0" prefWidth="189.0" promptText="Choose Item ID" />
+      <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+      <Label fx:id="msg" layoutX="49.0" layoutY="264.0" prefHeight="121.0" prefWidth="612.0" text="Message">
+         <font>
+            <Font name="System Bold Italic" size="20.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

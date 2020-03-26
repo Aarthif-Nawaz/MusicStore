@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="pane6" prefHeight="489.0" prefWidth="657.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.BuyItem">
+   <children>
+      <ComboBox fx:id="itemID" layoutX="305.0" layoutY="173.0" prefHeight="31.0" prefWidth="189.0" promptText="Choose Item ID" />
+      <Label layoutX="199.0" layoutY="88.0" prefHeight="50.0" prefWidth="233.0" text="        Buy Item" textAlignment="CENTER">
+         <font>
+            <Font name="Baskerville Old Face" size="29.0" />
+         </font>
+      </Label>
+      <Label layoutX="93.0" layoutY="166.0" prefHeight="44.0" prefWidth="189.0" text="Item ID">
+         <font>
+            <Font name="System Bold Italic" size="21.0" />
+         </font>
+      </Label>
+      <Button fx:id="BuyMusic" layoutX="53.0" layoutY="387.0" mnemonicParsing="false" onAction="#BuyMusics" prefHeight="44.0" prefWidth="170.0" text="Buy Item" />
+      <Button fx:id="Back5" layoutX="385.0" layoutY="387.0" mnemonicParsing="false" onAction="#MainPage" prefHeight="44.0" prefWidth="170.0" text="Back" />
+      <Label layoutX="93.0" layoutY="223.0" prefHeight="44.0" prefWidth="189.0" text="No Of Copies">
+         <font>
+            <Font name="System Bold Italic" size="21.0" />
+         </font>
+      </Label>
+      <TextField fx:id="copies" layoutX="305.0" layoutY="230.0" prefHeight="31.0" prefWidth="204.0" promptText="Enter Number Of Copies" />
+      <Label layoutX="93.0" layoutY="276.0" prefHeight="44.0" prefWidth="189.0" text="Total Cost">
+         <font>
+            <Font name="System Bold Italic" size="21.0" />
+         </font>
+      </Label>
+      <TextField fx:id="total" layoutX="305.0" layoutY="283.0" prefHeight="31.0" prefWidth="204.0" promptText="Total Cost" />
+   </children>
+</AnchorPane>
